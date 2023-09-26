@@ -1,0 +1,12 @@
+console.log(makeLine(5));
+
+function makeLine(size) {
+  let line = '';
+  for (let i = 0; i < size; i++) {
+    line += '#';
+   // console.log();
+  }
+  console.log(line);
+  return makeLine;
+
+}
