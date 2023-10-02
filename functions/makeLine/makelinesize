@@ -1,4 +1,4 @@
-console.log(makeLine(5));
+/*console.log(makeLine(5));
 
 function makeLine(size) {
   let line = '';
@@ -10,3 +10,78 @@ function makeLine(size) {
   return makeLine;
 
 }
+
+let add = function(a, b)  {
+  return (a + b);
+
+};
+console.log(add(1 , 1));
+*/
+/*console.log(reverse("1234"));
+function reverse(str) {
+  let lettersArray = str.split('');
+  let reversedLettersArray = lettersArray.reverse();
+  return reversedLettersArray.join('');
+}
+*/
+/*
+let f1 = function(str){
+  let lettersArray = str.split('');
+  let reversedLettersArray = lettersArray.reverse()
+  return reversedLettersArray.join('')
+
+//return reversedLettersArray();
+};
+//str = "abcd";
+console.log(f1("abcd"));
+*/
+/*
+let f1 = function(str) {
+  return str + str;
+};
+
+let f2 = f1;
+
+console.log(f1("abcd"));
+//console.log(function("abcd"));
+console.log(f2("abcd"));
+
+let logger = function(errorMsg) {
+  console.log("ERROR: " + errorMsg)
+};
+
+userInput = -1;
+if (userInput < 0) {
+  console.log(logger("Invalid input"));
+}
+console.log ("end of program");
+*/
+/*let nums = [3.14, 42, 4811];
+let byTwo = function(n){
+  return n/2;
+};
+// TODO: Write a mapping function
+// and pass it to .map()
+let halved = nums.map(byTwo);
+console.log(halved);
+*/
+let names = ["Chris", "Jim", "Sally", "Blake", "Paul", "John", "Courtney", "Carly"];
+
+// TODO: Write a mapping function
+//function firstNames(){
+//let str1 = str(0)
+//return str1
+//};
+// and pass it to .map()
+
+
+//let firstInit = function(str) {
+//  return str[0];
+//};
+//let firstInitials = names.map(firstInit); 
+let firstInitials = names.map(function (str) {
+  return str[0];
+}); 
+
+console.log (names);
+console.log(firstInitials);
