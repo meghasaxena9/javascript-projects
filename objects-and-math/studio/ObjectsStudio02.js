@@ -1,4 +1,5 @@
 // Code your orbitCircumference function here:
+<<<<<<< HEAD
 function orbitCircumference(radOrAlt){
 
   let c =Math.round(2*Math.PI*radOrAlt);
@@ -31,6 +32,16 @@ while (i<3) {
 }
 console.log(arrayId);
 */
+=======
+
+
+// Code your missionDuration function here:
+
+
+// Copy/paste your selectRandomEntry function here:
+
+
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
 // Code your oxygenExpended function here:
 
 

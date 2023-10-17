@@ -1,5 +1,9 @@
 // Here we assign the method inside the constructor
+<<<<<<< HEAD
 /*class AstronautI {
+=======
+class AstronautI {
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
    constructor(name, age, mass){
      this.name = name;
      this.age = age;
@@ -29,6 +33,7 @@
  let hippo = new AstronautO('Hippo', 25, 1000);
  
  console.log(fox);
+<<<<<<< HEAD
  console.log(hippo);*/
 
  class Plant {
@@ -42,3 +47,6 @@
   }
   
 }
+=======
+ console.log(hippo);
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

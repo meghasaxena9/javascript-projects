@@ -1,4 +1,5 @@
 function decreasingSum(integer) {
+<<<<<<< HEAD
    if(integer === 1){
       return integer;
    } else {
@@ -7,6 +8,12 @@ function decreasingSum(integer) {
       //return integer + (decreasingSum(integer));
       return integer + (decreasingSum(integer-1));
       //return decreasingSum(integer-1);
+=======
+   if (integer === 1){
+      return integer;
+   } else {
+      //call decreasingSum function again
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
    }
 }
 

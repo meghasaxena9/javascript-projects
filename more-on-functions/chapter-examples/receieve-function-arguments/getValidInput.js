@@ -14,6 +14,7 @@ function getValidInput(prompt, isValid) {
 
 // TODO 1: write a validator 
 // that ensures input starts with "a"
+<<<<<<< HEAD
 let startsWithA = function(word) {
   return (word.slice(0, 1).toLowerCase() === "a");
 }
@@ -26,5 +27,10 @@ let isVowel = function(n) {
   return (vowelArray.includes(n.toLowerCase()));
 };
 console.log(getValidInput("Enter a vowel: ", isVowel));
+=======
+
+// TODO 2: write a validator 
+// that ensures input is a vowel
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
 
 // Be sure to test your code!

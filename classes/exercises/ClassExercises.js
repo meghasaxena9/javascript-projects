@@ -1,4 +1,5 @@
 // Define your Book class here:
+<<<<<<< HEAD
 class Book {
     constructor(title, author, copyright, isbn, pages, timesCheckedOut, discarded){
        this.title = title;
@@ -50,3 +51,14 @@ makingTheShip.checkout(5);
 console.log(makingTheShip);
 // Code exercises 4 & 5 here:goodRead.checkout(5);
 goodRead.dispose();
+=======
+
+
+// Define your Manual and Novel classes here:
+
+
+// Declare the objects for exercises 2 and 3 here:
+
+
+// Code exercises 4 & 5 here:
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

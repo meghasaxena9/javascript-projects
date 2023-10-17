@@ -5,6 +5,7 @@ function reverse(str) {
 }
 
 console.log(reverse("LaunchCode"));
+<<<<<<< HEAD
 let f1 = function(str){
   let lettersArray = str.split('');
   let reversedLettersArray = lettersArray.reverse()
@@ -13,3 +14,5 @@ let f1 = function(str){
 //return reversedLettersArray();
 };
 //str = "abcd";
+=======
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

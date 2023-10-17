@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Create an anonymous function and set it equal to a variable.
 
 
@@ -20,6 +21,19 @@ let aVar = function(myNumb) {
    }
 }
 console.log(aVar("yes"));
+=======
+let arr = ['Elocution', 21, 'Clean teeth', 100];
+let practice = function(myArg) {
+   if (typeof myArg === "number") {
+      return myArg * 3;
+   } else if (typeof myArg === "string") {
+      return "ARRR!";
+   } else {
+      return myArg;
+   }
+
+}
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
 
 /* Add to your code! Use your fuction and the map method to change an array  as follows:
 a) Triple any the numbers.
@@ -28,6 +42,7 @@ c) Print the new array to confirm your work.
 */
 
 
+<<<<<<< HEAD
 let arr = ['Elocution', 21, 'Clean teeth', 100];
 let newArr = function(n) {
    for (i=o; i< arr.length; i++){
@@ -40,3 +55,12 @@ let newArr = function(n) {
       }
    }
 }
+=======
+
+let trippleNumbers = function (n){
+return n*3
+};
+let trippled = arr.map(trippleNumbers);
+console.log (arr);
+console.log (trippled);
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

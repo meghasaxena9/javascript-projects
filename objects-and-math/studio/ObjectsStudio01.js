@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // Code your selectRandomEntry function here:
+=======
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
 let idNumbers = [291, 414, 503, 599, 796, 890];
 function selectRandomEntry() {
   return idNumbers[Math.floor(Math.random()*6)];
@@ -82,4 +85,8 @@ function crewAnimals(arrayId1, animals1) {
 return crew
 };
 crew1 = crewAnimals(arrayId, animals);
+<<<<<<< HEAD
 console.log(`'${crew1[0]}, ${crew1[1]}, and ${crew1[2]} are going to space!'`);
+=======
+console.log(`'${crew1[0]}, ${crew1[1]}, and ${crew1[2]} are going to space!'`);
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

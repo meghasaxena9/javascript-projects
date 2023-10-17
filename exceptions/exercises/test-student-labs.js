@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
 /*function gradeLabs(labs) {
   for (let i=0; i < labs.length; i++) {
     let lab = labs[i];

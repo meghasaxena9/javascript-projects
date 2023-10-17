@@ -10,6 +10,7 @@ describe("hello world test", function(){
         expect(hello()).toBe("Hello, World!");
     });
 
+<<<<<<< HEAD
 });
 
 /*
@@ -25,3 +26,6 @@ expect(doStringsMatch('Flower', 'flower')).toBe('No match!');
 //expect(doStringsMatch('Flower', 'plant')).toBe('No match!');
 //expect(doStringsMatch('Flower', '')).toBe('No match!');
 */
+=======
+});
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+/*let superChimpOne = {
+   name: "Chad",
+   species: "Chimpanzee",
+   mass: 9,
+   age: 6
+};
+
+let salamander = {
+   name: "Lacey",
+   species: "Axolotl Salamander",
+   mass: 0.1,
+   age: 5
+};
+*/
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
 let superChimpOne = {
    name: "Chad",
    species: "Chimpanzee",
@@ -83,4 +100,16 @@ function fitnessTest(candidates){
        results.push(`${candidates[i].name} took ${turns} turns to take 20 steps.`);
    }
    return results;
+<<<<<<< HEAD
   };
+=======
+  };
+
+// After you have created the other object literals, add the astronautID property to each one.
+
+// Create an array to hold the animal objects.
+
+// Print out the relevant information about each animal.
+
+// Start an animal race!
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

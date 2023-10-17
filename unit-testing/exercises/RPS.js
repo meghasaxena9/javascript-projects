@@ -19,4 +19,8 @@ function whoWon(player1,player2){
    return 'Player 1 wins!';
  }
 
+<<<<<<< HEAD
  module.exports = whoWon;
+=======
+ module.exports = whoWon;
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32

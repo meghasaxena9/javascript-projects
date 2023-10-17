@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const processor = require('../processor.js');
 
 describe("transmission processor", function() {
@@ -43,3 +44,10 @@ test("returns -1 if rawdata is alphanumeric", function() {
 });
 
    });
+=======
+describe("transmission processor", function() {
+
+   //  TODO: put tests here
+ 
+ });
+>>>>>>> a67465628fb073e48f10c79d3333f89fff662e32
