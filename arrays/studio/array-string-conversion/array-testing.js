@@ -11,10 +11,7 @@ function reverseCommas() {
 	let check;
 	let output;
 	//TODO: 2. write the code required for this step
-protoArray1RC = protoArray1.split(",");
-protoArray1RC = protoArray1RC.reverse();
-protoArray1RC = protoArray1RC.join(",");
-console.log (protoArray1RC);
+
 	//NOTE: For the code to run properly, you must return your output.  this needs to be the final line of code within the function's { }.
 	return output;
 }
@@ -24,11 +21,7 @@ function semiDash() {
 	let check;
 	let output;
 //TODO: write the code required for this step
-protoArray2 = protoArray2.split(";");
-console.log (protoArray2);
-protoArray2 = protoArray2.sort();
-protoArray2 = protoArray2.join("-");
-console.log (protoArray2);
+
   
 	return output;
 }
@@ -38,12 +31,7 @@ function reverseSpaces() {
 	let check;
 	let output;
   //TODO: write the code required for this step
-  protoArray3 = protoArray3.split(" ");
-  console.log (protoArray3);
-  protoArray3 = protoArray3.sort();
-  protoArray3 = protoArray3.reverse();
-  protoArray3 = protoArray3.join(" ");
-  console.log (protoArray3);
+
 	return output;
 }
 
@@ -52,10 +40,7 @@ function commaSpace() {
 	let check;
 	let output;
 	//TODO: write the code required for this step
-protoArray4 = protoArray4.split(", ");
-console.log (protoArray4);
-protoArray4 = protoArray4.join(",");
-console.log (protoArray4);
+  
 	return output;
 }
 

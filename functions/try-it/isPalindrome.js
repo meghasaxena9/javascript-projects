@@ -5,4 +5,3 @@ function reverse(str) {
 function isPalindrome(str) {
    return reverse(str) === str;
 }
- 
