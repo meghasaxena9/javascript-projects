@@ -7,7 +7,7 @@ let grains = [];
 let veggies = [];
 let beverages = [];
 let desserts = [];
-
+let testVar = [];
 
 function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   let pantry = [protein, grains, veggies, beverages, desserts];
